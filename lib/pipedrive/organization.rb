@@ -6,6 +6,7 @@ module Pipedrive
     include ::Pipedrive::Operations::Create
     include ::Pipedrive::Operations::Update
     include ::Pipedrive::Operations::Delete
+    include ::Pipedrive::Operations::Search
     include ::Pipedrive::Utils
 
     def find_by_name(*args, &block)
